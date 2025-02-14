@@ -15,6 +15,10 @@
 5. Run this to update dependencies:
    mvn clean install
 
+Option 1: Build the JAR before deploying on Render
+Run Maven build manually before pushing to Render:
+mvn clean package
+
 For Testing - H2(Hypersonic 2) Database in Spring Boot is an embedded, open-source, and in-memory database. It is a relational database management system written in Java
 
 Great! 🚀 Since you're using H2 (in-memory database), by default, the data is stored in memory and disappears when the application restarts. However, you can view and persist the database in different ways.
